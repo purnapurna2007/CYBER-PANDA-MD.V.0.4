@@ -10,18 +10,18 @@ global.antitags = true;
 
 //auto functioner
 global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
+global.autoRecord = true;                //auto recording by default off.
 global.groupevent = false;                //This is the new variable for controlling group event handling.
 global.statusseen = false;                 //This is the new variable for controlling status seen.
-global.autoreadgc = false;
+global.autoreadgc = true;
 
 
 //
-global.prefa = ["."];                                    //Default prefix here. you can change if you want.
+global.prefa = [","];                                    //Default prefix here. you can change if you want.
 
 
 //
-global.Owner = ["+94704274987", "+94704274987"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.Owner = ["+94789958225", "+94704274987"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.OwnerNumber = ["+94704274987", "+94704274987"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.ownertag = ["+94704274987"];
 global.OwnerName = "SACHITH";
@@ -65,7 +65,7 @@ global.ntilinktg = []
 global.ntilinktt = []
 global.ntilinktwt = []
 global.ntilinkall = []
-global.nticall = []
+global.nticall = [true]
 global.ntwame = []
 global.nttoxic = []
 global.ntnsfw = []
